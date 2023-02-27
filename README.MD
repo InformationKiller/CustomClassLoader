@@ -11,3 +11,5 @@ Exception in thread "main" java.lang.ClassCastException: classes.Test cannot be 
 ```
 基于上面的东西可以做出A类可以访问B类但B类无法访问A类的单向访问效果，其实有这些东西能做的可多了去了，反正很好玩的~  
 闭包内代码所属的加载器取决于闭包构造时代码所属的类加载器。  
+
+但是，依然不够我用……遇到了一点点麻烦……
